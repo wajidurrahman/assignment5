@@ -6,6 +6,12 @@ body{
     background-color: chocolate;
 }
 img{
-    width: 80px;
+    width: 95%;
     height: 150px;
+}
+.center{
+    text-align: center;
+}
+div{
+    display: block;
 }
