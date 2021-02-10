@@ -6,10 +6,10 @@ const searchButton = meals => {
     fetch(url)
     .then(res => res.json())
     .then(data => console.log(data));
+    displayMealDetails()
 }
 
 const displayMealDetails = () => {
     mealContainer = document.getElementById('search-meal');
     mealContainer.innerHTML = '',
-
 }
