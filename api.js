@@ -5,12 +5,10 @@ function searchButton(){
     // console.log(url);
     fetch(url)
     .then(res => res.json())
-    .then(data => console.log(data));
-    displayMealDetails()
+    .then(data => displayMealDetails(data));
 }
 
 function displayMealDetails(){
     mealContainer = document.getElementById('search-meal');
-    mealContainer.innerHTML = '';
-
+    mealContainer.innerHTML = '';   
 }
